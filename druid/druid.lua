@@ -111,6 +111,10 @@ function M.new(context, style)
 end
 
 
+--- Alias for @{druid.new}. For compatibility with TypeScript.
+M.create = M.new
+
+
 --- Set your own default style for all Druid instances.
 --
 -- To create your own style file, copy the default style file and make changes to it.
